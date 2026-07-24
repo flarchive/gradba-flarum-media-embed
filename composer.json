@@ -1,0 +1,33 @@
+{
+    "name": "gradba/flarum-media-embed",
+    "description": "Embed YouTube, Vimeo and TikTok links in Flarum posts, using the s9e MediaEmbed engine already bundled with Flarum.",
+    "keywords": ["flarum", "media", "embed", "youtube", "vimeo", "tiktok", "video"],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gradba.mk",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "flarum/core": "^1.8"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Media Embed",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-photo-video",
+                "backgroundColor": "#0d9488",
+                "color": "#fff"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "support": {
+        "source": "https://github.com/gradba/flarum-media-embed",
+        "issues": "https://github.com/gradba/flarum-media-embed/issues"
+    }
+}
